@@ -1,9 +1,20 @@
 # Arcadia Server
 
-Headless game server that manages:
-- Player state and authentication
-- NPC logic and zone triggers
-- Syncs game data with connected clients
-- Packet system and event loop
+🧠 The multiplayer brain of the Arcadia Engine.
 
-Supports plugin-based mods and live admin commands.
+Responsible for:
+- Player state sync
+- Server authority over game world
+- Mob AI and zone logic
+- Events, quests, and admin commands
+
+### Architecture
+- Java 17+
+- Packet-based communication
+- Headless server with plugin support
+
+---
+
+## 🔗 Related Modules
+- [`arcadia-core`](https://github.com/arcadia-engine/arcadia-core)
+- [`arcadia-client`](https://github.com/arcadia-engine/arcadia-client)
